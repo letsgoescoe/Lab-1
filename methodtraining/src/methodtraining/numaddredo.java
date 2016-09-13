@@ -6,10 +6,11 @@ public class numaddredo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		Scanner userInput = new Scanner(System.in);
+
 		//Declarations
 		int input;
-		int x;
+		
 		
 		
 		//title of game
@@ -20,7 +21,6 @@ public class numaddredo {
 		
 		// game start user input number
 		System.out.println("Enter an integer: ");
-		Scanner userInput = new Scanner(System.in);
 		
 		String choice = "y";
 		while (choice.equals("y")) {
@@ -44,7 +44,7 @@ public class numaddredo {
 			  
 			
 		// output for results
-			String message=("i\t" + numberSquared +"\t" + numberCubed);
+			String message=("i"+ "\t" + numberSquared +"\t" + numberCubed);
 					System.out.println(message);
 	
 			}
@@ -53,7 +53,9 @@ public class numaddredo {
 					System.out.print("Continue? (y/n): ");
 					choice = userInput.next();
 					System.out.println();
-
+					
+					// game start user input number
+					System.out.println("Enter an integer: ");
 		
 	}
 }
