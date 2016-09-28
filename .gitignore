@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+public class Lab2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+		//Allowing user input
+		Scanner input = new Scanner(System.in);
+		
+		//Allowing user to continue by selecting y or (not continuing with n) the while loop will help continue if user request
+		String choice = "y";
+		while (choice.equalsIgnoreCase("y")) {
+			
+	
+		System.out.println();
+		
+		//Allowing user to continue by selecting y or (not continuing with n) the while loop will help continue if user request
+				String choice1 = "y";
+				while (choice.equalsIgnoreCase("y"));
+				
+				// see if the user wants to continue
+				System.out.println("Continue? (y/n): ");
+				choice = input.nextLine();
+				//  Space
+				System.out.println();
+		}
+
+	}
